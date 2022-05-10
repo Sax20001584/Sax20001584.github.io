@@ -1,0 +1,310 @@
+/* comment */
+
+* /*  The whole page padding and margin             */
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{ /*  header background color             */
+	background-color: #c78a49;
+}
+.brand-align{ /*   alligns the image and branding center with 100% of the header height            */
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.textmargin/*  Aliigns text at the center             */
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+#rcorners { 
+  border-radius: 25px;
+}
+li{ /*  changes list style             */
+	list-style: none;
+}
+a{ /*    changes color and removes all text decoration and ajusts text size           */
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.width123 /*    width 100%           */
+{
+	width: 100%;
+}
+.buttoncol /*    Button color changes and adds a boarder around the paragraph tag while aligning it center           */
+{
+	background-color: #c78a49;
+	width: 100px;
+	height: 30px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #969696;
+}
+.navbar{ /*   changes height of nav bar and displays child items center with a 50px gap between            */
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 48px;
+	gap: 50px;
+}
+.nav-menu{ /*      spaces the children 50px apart         */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+	padding-right: 200px;
+}
+.width250 /*       mnakes width 550px        */
+{
+	width:550;
+}
+.bg1 /*   background colour            */
+{
+	background-color: #cecece ;
+}
+.bg2/*   background colour            */
+{
+	background-color: #cecece;
+}
+.bg3/*   background colour            */
+{
+	background-color: #cecece ;
+}
+.training/*     changes display and the directions make it display in a row         */
+{
+	display: flex;
+	flex-direction: row;
+}
+.nav-branding{ /*     text size is changed         */
+	font-size: 3rem;
+}
+.nav-link{ /*    when hovering over nav link transistion occours          */
+	transition: 0.7s ease;
+}
+.nav-link:hover{ /*    when hovering over nav link transistion occours          */
+	color: black;
+}
+.hamburger{/*    doesnt display in desktop view or any high resolution screen           */
+	display: none;
+	cursor: pointer;
+}
+.bar{/*   black bars colour spacing and amrgen and the transistion effect            */
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: gray;
+}
+footer /*  footer    colour height and display type as well as aligning chil objects center         */
+{
+	background-color: #c78a49;
+	height: 200px;
+	display: flex;
+	align-items: center;
+}
+.footer{ /*      aligns objects in footer to center with 100% height and width of adult object         */
+		justify-content: space-evenly;
+		align-items: center ;
+		display: flex;
+		width: 100%;
+		height: 100%;
+		font-size: 32px;
+}
+.table-row/*    table row width and padding           */
+{
+		width: 30%;
+		padding-right: 50px;
+}
+.table /*     table height width and how child object are being aligned          */ 
+{
+	width:100%;
+	height: 80%;
+	align-items: center;
+}
+.table2 /*     table height width and how child object are being aligned          */ 
+{
+	width:100%;
+	height: 80%;
+	align-items: center;
+}
+.footer-div/*    height and width of div within the footer            */ 
+{
+	width: 50%;
+	height: 100%;
+}
+.footer-cell /*   width of cell within table            */ 
+{
+	width: 50%;
+}	
+.footer-row /*   width of table row            */ 
+{
+	width: 100%;
+}	
+.title /*   Title width height and colour of text white            */ 
+{
+	width: 100%;
+	height: 20px;
+	color: white;
+}
+.title2 /*      text is aligned center         */ 
+{
+	text-align: center;
+}
+.cell /*   table cell alignment            */ 
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main /*   background colour for main area on page            */ 
+{
+	background-color: #e2e2e2;
+}
+.image /*     image alignment          */ 
+{
+		margin-right: auto;
+		margin-left: auto;
+		display: flex;
+}
+
+.color-white /*    color white           */ 
+{
+	color: white;
+}
+.copyright /*      width of 100% of adult object , background colour change text colour white and aligning content center         */ 
+{
+	width: 100%;
+	background-color: #b27c41 ;
+	height: 20px ;
+	color: white;
+	justify-content: center;
+}
+.padding3 /*    padding 30px from top           */ 
+{
+	padding-top: 30px;
+}
+.padding4 /*       padding 30px from bottum        */ 
+{
+	padding-bottom: 30px;
+}
+.fontsize1/*     font size 30px          */ 
+{
+	font-size: 30px;
+}
+.page-tile /*     font size 40px          */ 
+{
+	font-size: 40px;
+}
+.paragraph1 /*    paragraph width and justify content to center           */ 
+{
+	width: 700px;
+	justify-content: center;
+}
+.width100 /*        width 100% change displat to flex and center align child objects       */ 
+{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.text2 /*     text is centered and 15px padding           */ 
+{
+	text-align: center;
+	padding-top: 15px;
+}
+.text3 /*   font size of 24px            */ 
+{
+	font-size: 24px;
+}
+.form /*    form  alignment and padding for top and bottom          */ 
+{
+	padding-top: 30px;
+	text-align:center;
+	padding-bottom: 50px;
+}
+.textsize1/*    font size of 22px and align text to center           */ 
+{
+	font-size: 22px;
+	text-align: center;
+}
+.centertext
+{
+	text-align: center;
+}
+.padding5 /*        padding from top and bottom of 20px       */ 
+{
+	padding-bottom: 20px;
+		padding-top: 20px;
+}
+.padding6 /*        30px padding from bottom       */ 
+{
+	padding-bottom: 30px;
+}
+.navstick /*   postition stick means that nev bar follows you down the page            */ 
+{
+	position: sticky;
+	top: 0px;
+	z-index:1;
+}
+@media(min-width: 1000px){ /* large resolution screens have special code to format content beter              */ 
+	.nav-menu	 /*  nav menu padding and alignment change to fit resolution             */ 
+	{
+	display: flex;
+	align-items: center;
+	padding: 0 0;
+	}
+}
+
+@media(max-width:768px){ /* smaller resolution screens have special code to format content beter              */ 
+
+	.hamburger /*       hamburger menu made visable          */ 
+	{
+		display: block;
+	}
+	.hamburger.active .bar:nth-child(2){ /*  bar in hamburger menu               */
+		opacity: 0;
+	}
+	.hamburger.active .bar:nth-child(1){ 
+		transform: translateY(8px) rotate(45deg); /* hamburger menu bars move when clicked linked to java script                */
+	}
+		.hamburger.active .bar:nth-child(3){
+		transform: translateY(-8px) rotate(-45deg);/* hamburger menu bars move when clicked linked to java script                */
+	}
+	.nav-menu{ /*       removes normal nav bar and turn it into hamburger menu for mobile view          */ 
+		position: fixed;
+		left: -100%;
+		top: 70px;
+		gap: 0;
+		flex-direction: column;
+		background-color: #c78a49;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+	}
+	.nav-item{
+		margin: 16px 0;
+	}
+	.nav-menu.active{
+		left: 0;
+	}
+	.width2
+	{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+	
